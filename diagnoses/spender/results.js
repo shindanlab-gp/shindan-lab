@@ -2,7 +2,7 @@ const results = {
   1: {
     icon: "🛡️",
     title: "堅実タイプ",
-    stars: "★☆☆☆☆",
+    level:1,
     description:
       "あなたはお金を計画的に使える堅実派です。無駄遣いが少なく、貯金も得意なタイプです。",
     recommended: [
@@ -21,7 +21,7 @@ const results = {
   2: {
     icon: "😊",
     title: "バランスタイプ",
-    stars: "★★☆☆☆",
+    level:2,
     description:
       "楽しみと節約のバランスが取れています。大きな浪費は少ないですが、小さな出費が積み重なりやすいです。",
     recommended: [
@@ -40,7 +40,7 @@ const results = {
   3: {
     icon: "🛍️",
     title: "気分買いタイプ",
-    stars: "★★★☆☆",
+    level:3,
     description:
       "気分によって買い物をすることが多いタイプです。ストレス発散が買い物になっているかもしれません。",
     recommended: [
@@ -59,7 +59,7 @@ const results = {
   4: {
     icon: "💸",
     title: "衝動買いタイプ",
-    stars: "★★★★☆",
+    level:4,
     description:
       "欲しいと思ったらすぐ購入してしまう傾向があります。あとで後悔する買い物も少なくありません。",
     recommended: [
@@ -78,7 +78,7 @@ const results = {
   5: {
     icon: "🔥",
     title: "浪費家タイプ",
-    stars: "★★★★★",
+    level:5,
     description:
       "かなり浪費しやすい傾向があります。まずは支出を把握することから始めましょう。",
     recommended: [
